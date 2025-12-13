@@ -1,4 +1,4 @@
-import { Client, Users } from "https://deno.land/x/appwrite@7.0.0/mod.ts";
+import { Client, Users } from "https://deno.land/x/appwrite@17.0.0/mod.ts";
 
 // This Appwrite function will be executed every time your function is triggered
 export default async ({ req, res, log, error }: any) => {

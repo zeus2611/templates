@@ -1,0 +1,63 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "e0ef301e94ff2127c00897dfb64613fb",
+    "packages": [
+        {
+            "name": "appwrite/appwrite",
+            "version": "17.4.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/appwrite/sdk-for-php.git",
+                "reference": "3aa44b77a1f25aef6c14b14d4e5965b88903a4a7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/appwrite/sdk-for-php/zipball/3aa44b77a1f25aef6c14b14d4e5965b88903a4a7",
+                "reference": "3aa44b77a1f25aef6c14b14d4e5965b88903a4a7",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-json": "*",
+                "php": ">=7.1.0"
+            },
+            "require-dev": {
+                "mockery/mockery": "^1.6.6",
+                "phpunit/phpunit": "^10"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Appwrite\\": "src/Appwrite"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "description": "Appwrite is an open-source self-hosted backend server that abstract and simplify complex and repetitive development tasks behind a very simple REST API",
+            "support": {
+                "email": "team@appwrite.io",
+                "issues": "https://github.com/appwrite/sdk-for-php/issues",
+                "source": "https://github.com/appwrite/sdk-for-php/tree/17.4.1",
+                "url": "https://appwrite.io/support"
+            },
+            "time": "2025-10-09T11:03:41+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {},
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=8.0.0"
+    },
+    "platform-dev": {},
+    "plugin-api-version": "2.6.0"
+}
